@@ -1,0 +1,389 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.billboard1{
+    height: 600px;
+    background-image: url(img/bg-masthead.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+      
+}
+
+ .h{ font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    
+
+}
+
+.p{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 5px;
+   
+}
+
+
+.btn{ color: white;
+    background-color: rgb(0,129,162);
+    font-size: 10px;
+    border: 2px;
+    border-radius: 3px;
+    height: 40px;
+    width: 120px;
+    margin-top: 25px;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+.billboard2{
+    padding: 100px 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+
+.btn3{ color: white;
+    background-color:rgb(51,58,64);
+    font-size: 10px;
+    border: 2px;
+    border-radius: 3px;
+    height: 40px;
+    width: 120px;
+    margin-top: 25px;
+    font-weight: bold;
+    
+}
+
+.h2{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+.p2{
+    font-size: 15px;
+    color: rgb(128,127,128);
+    margin-top: 5px;
+    font-weight: lighter;
+
+}
+
+.strong{
+    color:lightblue;
+}
+
+.billboard3{
+    padding: 150px 0px;
+    background-color: rgb(0,129,162);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   
+    
+}
+
+
+.p3{
+    font-size: 10px;
+    color:rgb(216,158,0) ;
+    font-weight: bold;
+    
+}
+
+.h3{
+    color:white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+    
+}
+
+
+.img4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+     
+}
+
+
+h3{font-size: 15px;
+
+}
+.icon{
+    margin-right: 50px;
+}
+
+
+.hit{
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.a{
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    padding: 10px 10px;
+    
+}
+
+
+
+.billboard4{
+    padding:300px 0px;
+    background-image: url(img/bg-callout.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+    
+}
+
+.h4{
+    text-align: center;
+    font-size: 35px ;
+    font-weight: bold;
+}
+
+.btn4{
+    background-color: rgb(0,129,162);
+    color: white;
+    font-size: 10px;
+    border: 2px;
+    border-radius: 3px;
+    height: 40px;
+    width: 120px;
+    font-weight: bold;
+    margin-top: 25px;
+
+}
+
+
+.billboard5{
+    
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+
+}
+
+.h5{
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: black ;
+
+}
+
+
+
+.one{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+
+    
+    
+}
+
+
+.one p{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex: 200px;
+    justify-content: center;
+    height: 250px;
+
+}
+
+
+.two{
+     align-items: center;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     color: white;
+     font-weight: lighter;
+     margin-bottom: 40px;
+}
+
+
+.two p{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex: 200px;
+    justify-content: center;
+    height: 250px;
+    font-weight: lighter;
+
+}
+
+.r{
+    background-image: url(img/portfolio-1.jpg);
+    height: auto;
+    width: 30%;
+    padding: 40px 30px;
+    background-position: center right;
+    
+    
+}
+
+
+.u{
+    background: url(img/portfolio-2.jpg);
+    height: auto;
+    width: 30%;
+    padding: 40px 30px;
+    background-position: center left;
+    
+    
+}
+
+
+.d{
+    background: url(img/portfolio-3.jpg);
+    height: auto;
+    width: 30%;
+    padding: 40px 30px;
+    background-position: center right;
+    
+}
+    
+
+
+.o{
+    background: url(img/portfolio-4.jpg);
+    height: auto;
+    width: 30%;
+    padding: 40px 30px;
+    background-position: center right;
+    
+} 
+
+
+.p4{
+    color: rgb(216,158,0);
+    font-size: 10px;
+    margin-top: 50px;
+
+}
+
+
+.billboard6{
+        padding: 125px 0px;
+        background-color:rgb(0,129,162);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 125px;
+    }
+
+    .p5{
+        color: white;
+        font-weight: bold;
+    }  
+    .btn5{
+        background-color: white;
+        color: black;
+        font-size: 10px;
+        border: 2px;
+        border-radius: 3px;
+        height: 45px;
+        width: 85px;
+        margin-right: 5px;
+        font-weight: bold;
+    
+
+
+    }
+
+    .btn6{
+        background-color: rgb(51,58,64);
+        color: white;
+        font-size: 10px;
+        border: 2px;
+        border-radius: 3px;
+        height: 45px;
+        width: 85px;
+        margin-left: 5px;
+        font-weight: bold;
+        
+    }
+
+
+    .billboard7{
+        height: 40vh;
+        background: url(img/map.jpeg) no-repeat;
+        background-size: 100%;
+        
+      
+        
+    }
+
+    .footer{
+        padding: 50px 0px;
+        background: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 80px;
+       
+     
+    }
+
+
+    
+
+ .p6{
+    color: rgb(51,58,64);
+    font-size: 10px;
+    margin-top: 5px;
+ }
+
+ .b{ border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(0,129,162);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px  ;
+ }  
